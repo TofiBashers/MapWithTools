@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="line"
+            android:gravity="center_vertical|fill_horizontal">
+            <stroke android:width="@dimen/zoom_seekbar_line_width_default"
+                android:color="@android:color/black"/>
+        </shape>
+    </item>
+</layer-list>

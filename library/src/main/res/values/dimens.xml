@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawing_tools_top_margin">20dp</dimen>
+    <dimen name="stroke_width_default">2dp</dimen>
+    <dimen name="zoom_levels_right_margin">40dp</dimen>
+    <dimen name="zoom_levels_bottom_margin">60dp</dimen>
+    <dimen name="zoom_imagebutton_size">40dp</dimen>
+    <dimen name="zoom_imagebutton_padding">5dp</dimen>
+    <dimen name="zoom_imagebutton_corners_default">5dp</dimen>
+    <dimen name="zoom_imagebutton_stroke_width_default">1dp</dimen>
+    <dimen name="zoom_imagebutton_seekbar_fix_margin">-10dp</dimen>
+    <dimen name="zoom_imagebutton_thumb_default_height">40dp</dimen>
+    <dimen name="zoom_imagebutton_thumb_default_width">8dp</dimen>
+    <dimen name="zoom_seekbar_line_width_default">1dp</dimen>
+    <dimen name="zoom_seekbar_height_default">25dp</dimen>
+    <dimen name="zoom_seekbar_width_default">150dp</dimen>
+    <dimen name="zoom_seekbar_tick_width_default">1dp</dimen>
+    <dimen name="zoom_seekbar_tick_height_default">80dp</dimen>
+    <dimen name="tool_elevation_default">5dp</dimen>
+    <dimen name="tool_height_default">40dp</dimen>
+</resources>

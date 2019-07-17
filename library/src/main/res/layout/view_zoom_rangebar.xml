@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/image_zoom_max"
+        android:layout_height="@dimen/zoom_imagebutton_size"
+        android:layout_width="@dimen/zoom_imagebutton_size"
+        android:layout_marginBottom="@dimen/zoom_imagebutton_seekbar_fix_margin"
+        android:padding="@dimen/zoom_imagebutton_padding"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:background="@drawable/imagebutton_background_zoom_default" />
+
+    <LinearLayout
+        android:layout_width="@dimen/zoom_seekbar_width_default"
+        android:layout_height="@dimen/zoom_seekbar_width_default"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/seekbar_range"
+            android:layout_height="@dimen/zoom_seekbar_height_default"
+            android:layout_width="@dimen/zoom_seekbar_width_default"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:layerType="software"
+            android:progressDrawable="@drawable/seekbar_default"
+            android:padding="0dp"
+            android:rotation="270"
+            app:tickMark="@drawable/zoom_seekbar_tick_default"
+            android:thumb="@drawable/zoom_seekbar_thumb_default"
+            tools:max="100"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/image_zoom_min"
+        android:layout_height="@dimen/zoom_imagebutton_size"
+        android:layout_width="@dimen/zoom_imagebutton_size"
+        android:layout_marginTop="@dimen/zoom_imagebutton_seekbar_fix_margin"
+        android:padding="@dimen/zoom_imagebutton_padding"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:background="@drawable/imagebutton_background_zoom_default"/>
+
+</LinearLayout>

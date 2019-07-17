@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DiscreteBarStyle" parent="@style/Widget.AppCompat.SeekBar.Discrete">
+        <item name="tickMark">@drawable/zoom_seekbar_tick_default</item>
+    </style>
+</resources>

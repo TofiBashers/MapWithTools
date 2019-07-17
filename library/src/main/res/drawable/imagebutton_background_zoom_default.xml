@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/zoom_imagebutton_corners_default" />
+    <solid android:color="@android:color/white" />
+    <stroke android:width="@dimen/zoom_imagebutton_stroke_width_default"
+        android:color="@color/stroke_default" />
+</shape>

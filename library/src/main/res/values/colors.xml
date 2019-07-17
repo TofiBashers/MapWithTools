@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stroke_default">#000000</color>
+    <color name="fill_default">#00000000</color>
+    <color name="tool_default">#FFFFFF</color>
+    <color name="tool_pressed">#E0E0E0</color>
+</resources>

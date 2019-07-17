@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="map_with_tools_default" type="id" />
+    <item name="drawing_tools_bar_default" type="id" />
+    <item name="circle_tool_default" type="id" />
+    <item name="map_control_tool_default" type="id" />
+    <item name="polyline_tool_default" type="id" />
+    <item name="rectangle_tool_default" type="id" />
+    <item name="zoom_rangebar_default" type="id" />
+</resources>

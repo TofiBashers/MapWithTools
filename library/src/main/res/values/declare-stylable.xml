@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="strokeColor" format="color" />
+    <attr name="fillColor" format="color" />
+    <attr name="isGeodesic" format="boolean" />
+    <attr name="figureClickable" format="boolean" />
+    <attr name="figureZIndex" format="float" />
+
+    <declare-styleable name="MapWithToolsView">
+        <attr name="uiZoomControlsType" format="enum" >
+            <enum name="withoutLevels" value="0" />
+            <enum name="withLevels" value="1" />
+            <enum name="disabled" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircleToolView">
+        <attr name="android:background" />
+        <attr name="strokeWidth" />
+        <attr name="strokeColor" />
+        <attr name="fillColor" />
+        <attr name="figureClickable" />
+        <attr name="figureZIndex" />
+    </declare-styleable>
+    <declare-styleable name="RectangleToolView">
+        <attr name="android:background" />
+        <attr name="strokeWidth" />
+        <attr name="strokeColor" />
+        <attr name="fillColor" />
+        <attr name="isGeodesic" />
+        <attr name="figureClickable" />
+        <attr name="figureZIndex" />
+    </declare-styleable>
+    <declare-styleable name="PolylineToolView">
+        <attr name="android:background" />
+        <attr name="strokeWidth" />
+        <attr name="color" />
+        <attr name="isGeodesic" />
+        <attr name="figureClickable" />
+        <attr name="figureZIndex" />
+    </declare-styleable>
+    <declare-styleable name="MapControlToolView">
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="ZoomRangeBarView">
+        <attr name="zoomMaxImage" format="reference" />
+        <attr name="zoomMinImage" format="reference" />
+        <attr name="levelsCount" format="integer" />
+    </declare-styleable>
+</resources>
