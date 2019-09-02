@@ -21,8 +21,7 @@ build/
 /local.properties
  
 # Misc
-/.idea/workspace.xml
-/.idea/libraries
+.idea/
 .DS_Store
 /captures
 **/*.iml

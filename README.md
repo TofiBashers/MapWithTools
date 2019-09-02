@@ -25,7 +25,7 @@ allprojects {
 Then add library to your dependencies in module's build.gradle file:
 ``` groovy
 dependencies {
-	implementation 'com.gmail.tofibashers.mapwithtools:1.0'
+	implementation 'com.github.TofiBashers:MapWithTools:1.0'
 }
 ```
 
